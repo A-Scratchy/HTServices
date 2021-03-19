@@ -1,0 +1,10 @@
+﻿version: "3.3"
+services:
+  gateway:
+    build: ../Gateway/Gateway
+    image: htservices
+    container_name: htservices
+    ports:
+      - "8000:80"
+      - "8001:443"
+

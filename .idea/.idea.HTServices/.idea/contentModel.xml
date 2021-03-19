@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AScratcherd.DHGS2K\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\AScratcherd.DHGS2K\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\AScratcherd.DHGS2K\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\AScratcherd.DHGS2K\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AScratcherd.DHGS2K\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_HTServices.36122436.00" t="ExcludeRecursive" />
+    <e p="C:\Users\AScratcherd.DHGS2K\source\repos\HTServices" t="IncludeFlat">
+      <e p="Frontend" t="Include" />
+      <e p="Gateway" t="Include">
+        <e p="Gateway" t="IncludeRecursive">
+          <e p=".dockerignore" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+          <e p="Dockerfile" t="Include" />
+          <e p="Events" t="Include" />
+          <e p="Gateway.csproj" t="IncludeRecursive" />
+          <e p="host.json" t="Include" />
+          <e p="local.settings.json" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Gateway.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="OrdersController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HTServices.sln" t="IncludeFlat" />
+      <e p="Infrastructure" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="Dockerfile" t="Include" />
+        <e p="host.json" t="Include" />
+        <e p="Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="local.settings.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Services" t="Include">
+        <e p="Contracts" t="Include" />
+        <e p="InventoryService" t="Include">
+          <e p="Inventory.API" t="IncludeRecursive">
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Controllers" t="Include">
+              <e p="ProductController.cs" t="Include" />
+            </e>
+            <e p="Inventory.API.csproj" t="IncludeRecursive" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="net5.0" t="Include">
+                  <e p="Inventory.API.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Program.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="launchSettings.json" t="Include" />
+            </e>
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="Inventory.Application" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="DependencyInjection.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IInventoryDbContext.cs" t="Include" />
+            </e>
+            <e p="Inventory.Application.csproj" t="IncludeRecursive" />
+            <e p="Mapping" t="Include">
+              <e p="ProductMapper.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Inventory.Application.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="ViewModels" t="Include">
+              <e p="ProductVm.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Inventory.Domain" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Events" t="Include" />
+            <e p="Exceptions" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IAggregateRoot.cs" t="Include" />
+            </e>
+            <e p="Inventory.Domain.csproj" t="IncludeRecursive" />
+            <e p="Models" t="Include">
+              <e p="ProductAggregate" t="Include">
+                <e p="Category.cs" t="Include" />
+                <e p="Product.cs" t="Include" />
+              </e>
+              <e p="ServiceAggregate" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Inventory.Domain.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Inventory.Events" t="IncludeRecursive">
+            <e p=".dockerignore" t="Include" />
+            <e p=".gitignore" t="Include" />
+            <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+            <e p="Dockerfile" t="Include" />
+            <e p="Events" t="Include" />
+            <e p="host.json" t="Include" />
+            <e p="Inventory.Events.csproj" t="IncludeRecursive" />
+            <e p="InventoryEventProcessor.cs" t="Include" />
+            <e p="local.settings.json" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp3.1" t="Include">
+                  <e p="Inventory.Events.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="Inventory.Infrastructure" t="IncludeRecursive">
+            <e p="AddMigrations.cmd" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="DatabaseUpdate.cmd" t="Include" />
+            <e p="Inventory.Infrastructure.csproj" t="IncludeRecursive" />
+            <e p="InventoryDbContext.cs" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Inventory.Infrastructure.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Persistence" t="Include">
+              <e p="Configurations" t="Include">
+                <e p="ProductConfiguration.cs" t="Include" />
+              </e>
+              <e p="Migrations" t="Include">
+                <e p="20210315162446_RemovedStockItem.cs" t="Include" />
+                <e p="20210315162446_RemovedStockItem.Designer.cs" t="Include" />
+                <e p="InventoryDbContextModelSnapshot.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="OrderPipelineContracts" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.1" t="Include">
+                <e p="OrderPipelineContracts.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="OrderPipelineContracts.csproj" t="IncludeRecursive" />
+          <e p="OrderPlacedNew.cs" t="Include" />
+          <e p="OrderPlacedPendingApproval.cs" t="Include" />
+        </e>
+        <e p="OrderService" t="Include">
+          <e p="Order.Application" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Commands" t="Include">
+              <e p="CreateOrderCommand.cs" t="Include" />
+              <e p="DeleteOrderCommand.cs" t="Include" />
+              <e p="Handlers" t="Include">
+                <e p="CreateOrderCommandHandler.cs" t="Include" />
+                <e p="DeleteOrderCommandHandler.cs" t="Include" />
+                <e p="ReplaceOrderCommandHandler.cs" t="Include" />
+                <e p="UpdateOrderCommandHandler.cs" t="Include" />
+              </e>
+              <e p="ReplaceOrderCommand.cs" t="Include" />
+              <e p="UpdateOrderCommand.cs" t="Include" />
+            </e>
+            <e p="DependencyInjection.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IMapFrom.cs" t="Include" />
+              <e p="IOrderDbContext.cs" t="Include" />
+              <e p="IRecordList.cs" t="Include" />
+            </e>
+            <e p="Mapping" t="Include">
+              <e p="MappingProfile.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Order.Application.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Order.Application.csproj" t="IncludeRecursive" />
+            <e p="Queries" t="Include">
+              <e p="GerOrderListQuery.cs" t="Include" />
+              <e p="GetOrderDetailQuery.cs" t="Include" />
+            </e>
+            <e p="ViewModels" t="Include">
+              <e p="AddressDto.cs" t="Include" />
+              <e p="OrderDetailVm.cs" t="Include" />
+              <e p="OrderItemDto.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Orders.API" t="IncludeRecursive">
+            <e p="appsettings.Development.json" t="Include" />
+            <e p="appsettings.json" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Controllers" t="Include">
+              <e p="OrderController.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IRestEndpoint.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="net5.0" t="Include">
+                  <e p="Orders.API.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Orders.API.csproj" t="IncludeRecursive" />
+            <e p="Program.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="launchSettings.json" t="Include" />
+            </e>
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="Orders.Domain" t="IncludeRecursive">
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Events" t="Include" />
+            <e p="Exceptions" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IAggregateRoot.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="Entity.cs" t="Include" />
+              <e p="OrderAggregate" t="Include">
+                <e p="Address.cs" t="Include" />
+                <e p="Order.cs" t="Include" />
+                <e p="OrderItem.cs" t="Include" />
+                <e p="OrderStatus.cs" t="Include" />
+                <e p="PaymentMethod.cs" t="Include" />
+              </e>
+              <e p="ValueObject.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Orders.Domain.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Orders.Domain.csproj" t="IncludeRecursive" />
+            <e p="Orders.Domain.csproj.DotSettings" t="Include" />
+          </e>
+          <e p="Orders.Events" t="IncludeRecursive">
+            <e p=".dockerignore" t="Include" />
+            <e p=".gitignore" t="Include" />
+            <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+            <e p="Dockerfile" t="Include" />
+            <e p="Events" t="Include">
+              <e p="CourseBookingOut.cs" t="Include" />
+              <e p="OrderCreatedEvent.cs" t="Include" />
+              <e p="ProductToShipOut.cs" t="Include" />
+            </e>
+            <e p="host.json" t="Include" />
+            <e p="local.settings.json" t="Include" />
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netcoreapp3.1" t="Include">
+                  <e p="Orders.Events.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="OrderEventProcessor.cs" t="Include" />
+            <e p="Orders.Events.csproj" t="IncludeRecursive" />
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="Orders.Infrastructure" t="IncludeRecursive">
+            <e p="AddMigrations.cmd" t="Include" />
+            <e p="bin" t="ExcludeRecursive" />
+            <e p="Configurations" t="Include">
+              <e p="OrderConfiguration.cs" t="Include" />
+            </e>
+            <e p="obj" t="ExcludeRecursive">
+              <e p="Debug" t="Include">
+                <e p="netstandard2.1" t="Include">
+                  <e p="Orders.Infrastructure.AssemblyInfo.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="OrderDbContext.cs" t="Include" />
+            <e p="Orders.Infrastructure.csproj" t="IncludeRecursive" />
+            <e p="Persistence" t="Include">
+              <e p="Migrations" t="Include">
+                <e p="20210315162258_SchemaUpdate.cs" t="Include" />
+                <e p="20210315162258_SchemaUpdate.Designer.cs" t="Include" />
+                <e p="OrderDbContextModelSnapshot.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
