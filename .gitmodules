@@ -1,0 +1,7 @@
+[submodule "Services/InventoryService"]
+path = Services/InventoryService
+url = git://https://github.com/A-Scratchy/HTServices.Inventory.git
+
+[submodule "Services/OrderService"]
+path = Services/OrderService
+url = git://https://github.com/A-Scratchy/HTServices.Orders.git
